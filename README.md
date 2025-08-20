@@ -1,0 +1,2 @@
+# Frosted-Nitro-Popup
+Transparent

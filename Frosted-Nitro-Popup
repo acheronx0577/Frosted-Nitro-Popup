@@ -1,0 +1,95 @@
+/**
+ * @name Frosted Nitro Popup
+ * @author AcheronX.
+ * @description Make Nitro Popup transparent fit with theme. 
+ * @source https://github.com/acheronx0577/Transparent-Quick-Switcher-Discord/blob/main/Transparent%20Quick%20Switcher.css
+ * @version 0.0.1
+ * @website https://github.com/acheronx0577
+ */
+
+/* 🎪 Popover container */
+.popover_d6f39b {
+    background-color: rgba(5, 4, 58, 0.37) !important;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+/* ❌ Close button */
+.closeButton_d6f39b {
+    background: linear-gradient(
+        to right,
+        rgba(88, 45, 133, 0.1) 0%,
+        rgba(45, 52, 139, 0.25) 50%,
+        rgba(87, 45, 133, 0.1) 100%
+    ) !important;
+    transition: all 0.2s ease !important;
+    opacity: 0.7;
+}
+
+/* ✨ Close button hover effect */
+.closeButton_d6f39b:hover {
+    background: linear-gradient(
+        to right,
+        rgba(88, 45, 133, 0.3) 0%,
+        rgba(45, 52, 139, 0.6) 50%,
+        rgba(87, 45, 133, 0.3) 100%
+    ) !important;
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* 🖼️ Asset/image */
+.asset_d6f39b,
+.asset--md_d6f39b,
+.art__3f6fc {
+    background-color: transparent !important;
+}
+
+/* 🏷️ Header section */
+.header_d6f39b,
+.hasActions_d6f39b,
+.title_d6f39b,
+.headerBody_d6f39b {
+    background-color: transparent !important;
+}
+
+/* 🎛️ Action bar */
+.actionBar_d6f39b {
+background: linear-gradient(
+    to right,
+    rgba(87, 45, 133, 0.3) 0%,        /* More transparent */
+    rgba(45, 52, 139, 0.5) 50%,       /* More transparent */
+    rgba(87, 45, 133, 0.3) 100%       /* More transparent */
+) !important;    
+    border-radius: 7px;
+    width: 70%;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    margin: 0 auto !important; 
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* ✨ Action bar hover effect */
+.actionBar_d6f39b:hover{
+    border-radius: 7px;
+    background: linear-gradient(
+        to right,
+        rgba(87, 45, 133, 0.6) 0%,
+        rgba(45, 52, 139, 0.8) 50%,
+        rgba(87, 45, 133, 0.6) 100%
+    ) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔽 Caret/arrow */
+.caret__6ec79,
+.caret--left__6ec79,
+.caret--start__6ec79,
+.caretIcon_d6f39b,
+.caretFill_d6f39b,
+.caretGradient_d6f39b,
+.caretStroke_d6f39b {
+    background-color: transparent !important;
+}
